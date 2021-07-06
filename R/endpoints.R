@@ -10,7 +10,7 @@ somar_dois_numeros <- function(a, b) {
 #* Padrao
 #* @get /
 function() {
-  "aloalo"
+  "O Cloud Run já tá atualizado"
 }
 
 # httr::GET("http://naoseioq.gcp.io/soma", query = list(a = 5, b = 10))
