@@ -19,3 +19,9 @@ function() {
 function(a, b) {
   Sys.getenv("TESTE_ENV")
 }
+
+#* Padrao
+#* @get /amorzoca
+function() {
+  "Seu amorzoca é: Athos"
+}
