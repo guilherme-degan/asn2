@@ -1,8 +1,6 @@
-source("funcoes.R")
-
 #* Soma dois números
 #* @get /soma
-somar_dois_numeros <- function(a, b) {
+function(a, b) {
   soma(as.numeric(a), as.numeric(b))
 }
 
