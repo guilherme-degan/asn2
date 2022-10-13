@@ -49,3 +49,6 @@ soma <- POST("https://plumberzinho-2ttjicpeda-uc.a.run.app/sum",
              encode = "json")
 content(soma)
 
+
+nasa_api <- GET("https://asn2-2gkclaa5ca-uc.a.run.app/nasa_api")
+content(nasa_api)
