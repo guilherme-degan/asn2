@@ -21,7 +21,7 @@ function(a, b) {
 }
 
 #* Padrao
-#* @get /amorzoca
+#* @get /default_port
 function() {
-  "Seu amorzoca é: Athos"
+  Sys.getenv("PORT")
 }
