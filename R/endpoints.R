@@ -27,7 +27,7 @@ function() {
 }
 
 #* Testa se secrets ta funcionando
-#* @get /default_port
+#* @get /nasa_api
 function() {
   Sys.getenv("NASA_API")
 }
