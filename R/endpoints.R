@@ -14,14 +14,20 @@ function() {
 # httr::GET("http://naoseioq.gcp.io/soma", query = list(a = 5, b = 10))
 
 
-#* Soma dois números
+#* Testa se env var ta funcionando
 #* @get /testgetenv
 function(a, b) {
   Sys.getenv("TESTE_ENV")
 }
 
-#* Padrao
+#* Porta padrao
 #* @get /default_port
 function() {
   Sys.getenv("PORT")
+}
+
+#* Testa se secrets ta funcionando
+#* @get /default_port
+function() {
+  Sys.getenv("NASA_API")
 }
