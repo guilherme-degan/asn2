@@ -17,7 +17,7 @@ function() {
 #* Testa se env var ta funcionando
 #* @get /testgetenv
 function(a, b) {
-  Sys.getenv("TESTE_ENV")
+  Sys.getenv("teste")
 }
 
 #* Porta padrao
