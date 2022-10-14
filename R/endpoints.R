@@ -1,7 +1,7 @@
 #* Soma dois números
 #* @get /soma
 function(a, b) {
-  a + b
+  as.numeric(a) + as.numeric(b)
 }
 
 
